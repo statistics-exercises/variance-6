@@ -10,4 +10,4 @@ which we can easily rearrange to:
 
 __Your task in this exercise is to compute this quantity for the data in the NumPy array called radii.__  The data in this array are the radii of the bubbles that we looked at in the exercise on biased estimators.  To pass the test the variable S2 needs to be set equal to the sample variance computed of this data that is computed using the formula given above.  The correct value of this quantity will then be output in the black square if the code is written correctly.
 
-N.B _I always compute variance using this formula as the mean for the squares of the random variables and the mean for the random variable can then be computed in a single loop._  
+N.B _I always compute variance using the second formula here rather than the first as the mean for the squares of the random variables and the mean for the random variable can then be computed in a single loop._  
