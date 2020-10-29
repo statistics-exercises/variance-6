@@ -2,7 +2,7 @@
 
 If we do not know the exact value of the expectation for the distribution we should use the following estimator for the sample variance:
 
-![](https://render.githubusercontent.com/render/math?math=S^2=\frac{1}n-1}\sum_{i=1}^{n}[X-\overline{X}]^2\qquad\textrm{where}\qquad\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_i)
+![](https://render.githubusercontent.com/render/math?math=S^2=\frac{1}{n-1}\sum_{i=1}^{n}[X-\overline{X}]^2\qquad\textrm{where}\qquad\overline{X}=\frac{1}{n}\sum_{i=1}^{n}X_i)
 
 which we can easily rearrange to:
 
