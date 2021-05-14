@@ -16,6 +16,6 @@ class UnitTests(unittest.TestCase) :
         inputs, variables = [], []
         for n in range(2,15) :
             inputs.append((n,))
-            myvar = randomvar( 0.5, variance=1/12/n, vmin=0, vmax=1, isinteger=False )
+            myvar = randomvar( 0.5, variance=1/12/n, dist="chi2", isinteger=False )
             variables.append( myvar )
         assert( check_func('variance',inputs, variables ) )
