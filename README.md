@@ -9,7 +9,7 @@ $$
 which we can easily rearrange to:
 
 $$
-S^2=\frac{n}{n-1}\left[\left(\frac{1}{n}\sum_{i=1}^{n}X_i^2\right)^2-\overline{X}^2\right]
+S^2=\frac{n}{n-1}\left[\frac{1}{n}\sum_{i=1}^{n}X_i^2-\overline{X}^2\right]
 $$
 
 __Your task in this exercise is to write a function called `variance` that calculates an estimate of this quantity.__  This function should take in a single number `n`.  Within the function you should then generate `n` uniform 
